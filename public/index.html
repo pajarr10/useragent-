@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>useragent_scraper — Synhs API Client</title>
+<title>useragent_scraper — Pajar API</title>
 <meta name="description" content="Generate User-Agent string dari berbagai OS dan browser, langsung dari terminal di browser." />
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,7 +20,7 @@
       <span class="topbar__title">useragent_scraper</span>
     </div>
     <div class="topbar__meta">
-      <span class="topbar__source">source: api-synhs.my.id</span>
+      <span class="topbar__source">source: useragenttt.vercel.app</span>
     </div>
   </header>
 
@@ -87,7 +87,7 @@
 
       <div class="command-preview" aria-label="Pratinjau permintaan">
         <span class="command-preview__label">request</span>
-        <code id="command-preview-text">GET /api/useragent?jumlah=20&amp;os=linux&amp;browser=firefox&amp;format=json</code>
+        <code id="command-preview-text">GET useragenttt.vercel.app/api/useragent?jumlah=20&amp;os=linux&amp;browser=firefox&amp;format=json</code>
       </div>
     </section>
 
@@ -109,12 +109,12 @@
         <div class="terminal__body" id="terminal-body">
           <pre class="terminal__placeholder" id="placeholder">
 <span class="muted">// belum ada hasil.</span>
-<span class="muted">// atur parameter di sebelah kiri, lalu tekan "generate".</span>
+<span class="muted">// KALAU ERROR HASIL GA MUNCUL, PAKAI NODE DESKTOP.".</span>
 </pre>
 
           <div class="terminal__loading" id="loading" hidden>
             <span class="spinner" aria-hidden="true"></span>
-            <span id="loading-text">mengambil data dari api-synhs.my.id<span class="loading-dots"><span>.</span><span>.</span><span>.</span></span></span>
+            <span id="loading-text">mengambil data dari useragenttt.vercel.app<span class="loading-dots"><span>.</span><span>.</span><span>.</span></span></span>
           </div>
 
           <pre class="terminal__output" id="output" hidden tabindex="0"></pre>
